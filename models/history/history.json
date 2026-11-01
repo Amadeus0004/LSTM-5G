@@ -1,0 +1,62 @@
+[
+  {
+    "version": 1,
+    "action": "finetune",
+    "file": "lstm_v1.pt",
+    "time": "2026-10-29T07:03:41",
+    "mae_before": {
+      "eMBB": 5.569948454302626,
+      "URLLC": 4.436004026766293,
+      "mMTC": 2.712864679373058
+    },
+    "mae_after": {
+      "eMBB": 3.4514649532072927,
+      "URLLC": 2.8514556966473408,
+      "mMTC": 1.6951622547887828
+    }
+  },
+  {
+    "version": 0,
+    "action": "rollback",
+    "file": "lstm_v0_original.pt",
+    "time": "2026-10-29T07:03:41"
+  },
+  {
+    "version": 3,
+    "action": "finetune",
+    "file": "lstm_v3.pt",
+    "time": "2026-10-29T07:09:26",
+    "mae_before": {
+      "eMBB": 5.569948454302626,
+      "URLLC": 4.436004026766293,
+      "mMTC": 2.712864679373058
+    },
+    "mae_after": {
+      "eMBB": 3.456881801777876,
+      "URLLC": 2.689527905910701,
+      "mMTC": 1.7372551207204936
+    }
+  },
+  {
+    "version": 0,
+    "action": "rollback",
+    "file": "lstm_v0_original.pt",
+    "time": "2026-10-29T07:09:48"
+  },
+  {
+    "version": 5,
+    "action": "finetune",
+    "file": "lstm_v5.pt",
+    "time": "2026-10-29T17:50:39",
+    "mae_before": {
+      "eMBB": 5.569948454302626,
+      "URLLC": 4.436004026766293,
+      "mMTC": 2.712864679373058
+    },
+    "mae_after": {
+      "eMBB": 3.5207933205115873,
+      "URLLC": 2.845645772598428,
+      "mMTC": 1.7110957513137042
+    }
+  }
+]
